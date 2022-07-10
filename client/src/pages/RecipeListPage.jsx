@@ -58,20 +58,21 @@ const RecipeListPage = () => {
       </form>
       {!dataFetched ? (
         <div className={styles.textLoader}>
-          Hungry yet? Your recipe list is on its way!
+          Hungry? Your recipe list is on its way!
         </div>
       ) : (
         <section className={styles.recipeTiles}>
           {recipes.map((item) => {
             return <RecipeTile item={item} />;
           })}
+          <section className={styles.pagination}>
+            <span className={styles.buttonPage} onClick={nextpageHandler}>
+              Next Page &#8594;
+            </span>
+          </section>
         </section>
       )}
-      <section className={styles.pagination}>
-        <span className={styles.buttonPage} onClick={nextpageHandler}>
-          Next &#8594;
-        </span>
-      </section>
+
       <Footer />
     </main>
   );

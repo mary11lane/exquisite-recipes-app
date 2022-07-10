@@ -34,8 +34,9 @@
 }
 
 .pagination {
-  width: 10%;
-  font-weight: 700;
+  margin-right: 25px;
+  font-weight: 900;
+  font-size: 1.5rem;
   color: #fff;
   position: absolute;
   bottom: 40px;
@@ -43,6 +44,5 @@
 }
 
 .buttonPage {
-  margin: 10px;
   cursor: pointer;
 }
