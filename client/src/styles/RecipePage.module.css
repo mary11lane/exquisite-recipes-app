@@ -1,0 +1,55 @@
+.container,
+.containerSub,
+.containerDetails {
+  display: flex;
+}
+
+.container,
+.containerSub {
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  min-height: 100vh;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.containerSub {
+  width: 100vw;
+}
+
+.containerRecipe {
+  width: 400px;
+  height: 500px;
+  background-color: #d7b957;
+}
+
+.image {
+  width: 500px;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.label,
+.containerDetails {
+  margin: 10px 20px;
+}
+.textLoader {
+  color: #fff;
+  margin: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.containerDetails {
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.containerDetails div {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+.tileRecipe {
+  width: 300px;
+  margin: 20px;
+  background-color: #d7b957;
+}
+
+.image {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.text {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000;
+}

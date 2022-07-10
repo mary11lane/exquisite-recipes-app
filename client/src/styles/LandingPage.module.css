@@ -1,0 +1,52 @@
+.container,
+.containerLogoButtons,
+.buttons {
+  display: flex;
+}
+
+.container,
+.containerLogoButtons {
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+
+  justify-content: center;
+  color: #fff;
+}
+
+.containerImage {
+  width: 60vw;
+  max-height: 100vh;
+}
+
+.imageLanding {
+  min-width: calc(60vw);
+  height: calc(100vh);
+}
+
+.containerLogoButtons {
+  position: relative;
+  width: 40vw;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.buttons {
+  text-align: center;
+  margin: 150px 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.login,
+.signup {
+  padding: 5px 20px;
+}
+
+.signup {
+  background-color: #d7b957;
+}

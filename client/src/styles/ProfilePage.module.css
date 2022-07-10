@@ -1,0 +1,17 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+  color: #fff;
+}
+.text {
+  margin: 40px;
+  font-size: 1.5rem;
+}
+
+.imgDisplay {
+  width: 30%;
+}
